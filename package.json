@@ -1,0 +1,44 @@
+{
+  "name": "register-login-crud",
+  "version": "1.0.0",
+  "description": "Simple app with register, login and CRUD (create-read-update-delete) developed in NodeJS + MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisjtoledo/register-login-crud.git"
+  },
+  "keywords": [
+    "notes",
+    "todo",
+    "login",
+    "register",
+    "crud",
+    "app",
+    "practice",
+    "example"
+  ],
+  "author": "Alexis Toledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisjtoledo/register-login-crud/issues"
+  },
+  "homepage": "https://github.com/alexisjtoledo/register-login-crud#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "express-sessions": "^1.0.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.7.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
