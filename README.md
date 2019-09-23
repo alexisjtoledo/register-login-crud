@@ -27,6 +27,7 @@ Simple app with register, login and CRUD (create-read-update-delete) developed i
 - Handlebars Template Engine
 
 # How it works?
+To start initialize your mongoDB server, then run "npm run dev" to enter on development mode. Finally look for your app in a browser at 'localhost:3000'.
 
 ## Creating a new user
 ![Creating a new user](newuser.gif)
